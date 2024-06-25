@@ -1,0 +1,36 @@
+:root{
+    --laranja: #FAA44B;
+    --azulEscuro: #66A5BA;
+    --azulClaro: #4BCDFA;
+    --marrom: #A58768;
+    --marromEscuro:#504943;
+    --cinza: #62747A;
+
+}
+
+
+.header{
+    background-color: #324653;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    border-bottom: 2px solid var(--azulClaro);
+}
+
+.nomeEmpresa{
+    font-size: 20px;
+    display: flex;
+    padding: 8px;
+}
+
+.navLinks{
+    display: flex;
+}
+
+.navLinks > a{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
